@@ -1,6 +1,5 @@
 import os
 import setuptools
-import pyteams_msg
 
 here = os.path.abspath(os.path.dirname(__file__))
 
