@@ -1,13 +1,14 @@
 import setuptools
+import pyteams_msg
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyteams_msg",
-    version="0.0.1",
-    author="Jordi Marimon",
-    author_email="jordi@marimon.tech",
+    name=__project__,
+    version=__version__,
+    author=__author__,
+    author_email=__author_email__,
     description="Build and post messages to Microsoft Teams",
     long_description=long_description,
     long_description_content_type="text/markdown",
