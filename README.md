@@ -20,7 +20,7 @@ from pyteams_msg.teamsmessage import TeamsMessage
 from pyteams_msg.adaptivecard import AdaptiveCard
 from pyteams_msg.sections import TextBlock, Image
     
-my_msg = TeamsMessage(webhook=os.environ["TEAMS_WEBHOOK"])
+my_msg = TeamsMessage(webhook_url=os.environ["TEAMS_WEBHOOK"])
 card = AdaptiveCard()
 title_section = TextBlock(
     "Some cool clickbait",
